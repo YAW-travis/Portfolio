@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #151515;
+  color: white;
+  line-height: 1.6;
+}
+header, section, footer {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.social-icons{
+  position: absolute;
+  top: 30px;
+  right: 250px;
+  display: flex;
+  gap: 15px;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 1rem;
+  border-bottom: 1px solid #333333;
+}
+.hero-text {
+  max-width: 600px;
+}
+.hero-text h1 ,h2{
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.hero-text span {
+  text-decoration: underline;
+  text-decoration-color: #4EE1A0;
+}
+
+.hero-text p {
+  margin-bottom: 50px;
+  color: #d0d0d0;
+}
+.contact-link {
+  text-decoration: none;
+  color: #4EE1A0;
+  border-bottom: 1px solid #4EE1A0;
+  padding-bottom: 5px;
+}
+.hero-image img {
+  width: 350px;
+  border-radius: 5px;
+}
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10rem;
+  text-align: center;
+  margin-top: 2rem;
+  border-bottom: 1px solid #333333;
+}
+.projects {
+  margin-top: 0.5rem;
+  border-bottom: 1px solid #333333;
+}
+.hello{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#hello{
+  border-bottom: 2px solid #4EE1A0;
+}
+h2, h3 {
+  color: white;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10rem;
+}
+.project-card {
+  background-color: #222;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.project-links p {
+  display: inline-block;
+  color: #d0d0d0;
+  margin-right: 1rem;
+  font-size: 15px;
+}
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: none;
+  background-color: #151515;
+  color: white;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+.send-btn {
+  width: 130px;
+  color: white;
+  border-bottom: 2px solid #4EE1A0;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.icons img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+@media(max-width: 600px){
+  header, section, footer {
+    padding: 1rem;
+  }
+}
